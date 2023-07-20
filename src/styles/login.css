@@ -1,0 +1,41 @@
+.hot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail{
+    width: 325px;
+    height: 39px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    text-align: center;
+}
+.pass{
+    width: 325px;
+    height: 39px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    text-align: center;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logs{
+margin-top: 87px;
+}
+.ini{
+    width: 325px;
+    height: 39px;
+    border-radius: 20px;
+    background: #1E3673;
+    color: #FFF;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.863px;
+}

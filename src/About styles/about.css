@@ -1,0 +1,120 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.test h4{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 12px;
+    
+    font-weight: 600;
+    line-height: 16.103px ;
+    width: 144px;
+}
+.test p{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.103px;
+    width: 122px;
+}
+.test button{
+    border-radius: 15px;
+    width: 89px;
+    height: 39px;
+    background: #2F98C2;
+    color: #FFF;
+    font-family:var(--roboto);
+    font-size: 12px;
+    font-weight: 600;
+}
+hr{
+    width: 138.017px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.40);
+}
+.cho h3{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 18.5px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tic{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tic p{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16.103px;
+    padding-top: 9px;
+}
+.story{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.story p{
+    color: #1E3673;
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.103px;
+
+}
+.story h3{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.838px;
+}
+.story button{
+    width: 89px;
+    height: 39px;
+    border-radius: 15px;
+    background: #2F98C2;
+    color: #FFF;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.vision h3{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.838px;
+}
+.vision p{
+    color: #1E3673;
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.103px;
+}
+.vision {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.elli{
+    margin-left: 49px;
+    width: 224px;
+    height: 224px;
+    padding-bottom: 26px;
+}

@@ -1,0 +1,38 @@
+.date form {
+    display: flex;
+    flex-direction: column;
+}
+.place{
+    width: 325px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #1E3673;
+    background: #FFF;
+    margin-bottom: 19px;
+    padding-left: 13px;
+}
+.appp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.req{
+    width: 89px;
+    height: 39px;
+    border-radius: 20px;
+    background: #2F98C2;
+    border: none;
+    color: #FFF;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+.appp h2{
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 45.5px;
+}

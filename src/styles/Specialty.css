@@ -1,0 +1,61 @@
+.spec{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.specl{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+.say{
+    height: 192px;
+    width: 140px;
+}
+.say p{
+    font-size: 12px;
+}
+.says{
+    display: flex;
+    justify-content: space-between;
+}
+.ims{
+    margin-bottom: 40px;
+}
+.day{
+    background: linear-gradient(174deg, #2F98C2 0%, #1E3673 100%);
+    width: 100%;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.chat{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.scr{
+    overflow-x: scroll;
+    display: flex;
+}
+.doc{
+    margin-right: 25px;
+}
+.docs{
+    height: 206px;
+    width: 240px;
+    
+}
+@media(min-width: 768px){
+    .deas{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}

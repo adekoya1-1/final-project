@@ -1,0 +1,24 @@
+.foot{
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #1E3673;
+height: 204px;
+}
+.foot hr{
+    width: 325px;
+    height: 1px;
+    background: #FFF;
+}
+.foot h3{
+    color: #FFF;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 700;
+}
+.foot p{
+    color: #FFF;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 500;
+}

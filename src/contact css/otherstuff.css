@@ -1,0 +1,115 @@
+.loc{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFF;
+}
+.ress{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.loc p{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 3px;
+}
+.res{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.map{
+    margin-top: -10px;
+    z-index: 1;
+}
+.name{
+    width: 118px;
+    height: 39px;
+    border-radius: 10px;
+    border: 1px solid #2F98C2;
+    background: #FFF;
+    margin-left: 12px;
+    padding-left: 10px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 39px;
+}
+.fir{
+    margin-top: 11px;
+    margin-left: 27px;
+}
+.mail{
+    width: 246px;
+    height: 39px;
+    border-radius: 10px;
+    border: 1px solid #2F98C2;
+    background: #FFF;
+    padding-left: 10px;
+}
+.news{
+    width: 242.5px;
+    height: 111.5px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #2F98C2;
+    border-radius: 10px;
+    border: 1px solid #2F98C2;
+    background: #FFF;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.fro{
+    width: 325px;
+    height: 327px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: -10px;
+    margin-left: 25px;
+}
+.fro h3{
+    color: #1E3673;
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.838px;
+    padding-top: 28px;
+}
+.sub{
+    width: 240px;
+    height: 39px;
+    stroke-width: 1px;
+    stroke: #2F98C2;
+    border: 1px solid #2F98C2;
+    border-radius: 10px;
+}
+.yesa{
+    width: 108px;
+    height: 39px;
+    border-radius: 10px;
+    opacity: 0.8999999761581421;
+    background: linear-gradient(175deg, #2F98C2 0%, #1E3673 100%);
+    border: none;
+    margin-left: -10px;
+}
+.letter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}

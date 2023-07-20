@@ -1,0 +1,8 @@
+.logo{
+    width: 189px;
+    height: 36px;
+}
+.del{
+    display: flex;
+    flex-direction: column;
+}

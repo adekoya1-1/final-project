@@ -1,0 +1,45 @@
+.drug{
+    background-color: #BEECFF;
+    margin-top: 50px;
+}
+.covid {
+    width: 300px;
+    
+}
+.vass h3{
+    color: #1E3673;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.vass p{
+    color: #1E3673;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+.vass button{
+    width: 119.835px;
+    height: 39px;
+    border-radius: 20px;
+    background: #FFF;
+    color: #1E3673;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 44px;
+}
+@media(min-width: 768px){
+    .drug{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .vass p{
+        width: 400px;
+    }
+    .vass h3{
+        margin-top: 116px;
+    }
+}
