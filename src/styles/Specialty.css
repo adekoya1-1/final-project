@@ -7,7 +7,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 25px;
 }
 .say{
     height: 192px;
@@ -41,6 +40,7 @@
 .scr{
     overflow-x: scroll;
     display: flex;
+    margin-left: 10px;
 }
 .doc{
     margin-right: 25px;
@@ -50,12 +50,60 @@
     width: 240px;
     
 }
-@media(min-width: 768px){
+.pro button{
+    border-radius: 0px 20px;
+}
+@media(min-width: 1440px){
     .deas{
         display: flex;
-        flex-wrap: wrap;
         text-align: center;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        margin-left: 92px;
+        margin-right: 92px;
+    }
+    .deas p{
+        font-size: 20px;
+        width: 316px;
+    }
+    .bord{
+        border-left: 1px solid rgba(0, 0, 0, 0.40); ;
+        
+    }
+    .bords{
+        margin-left: 70px;
+    }
+    .docs{
+        width: 290px;
+        height: 379px;
+    }
+    .scr{
+        justify-content: space-between;
+        margin-left: 90px;
+        margin-right: 90px;
+        overflow: unset;
+    }
+    .say{
+        width: 583px;
+        height: 192px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 64px;
+        padding-top: 43px;
+    }
+    .say p{
+        font-size: 20px;
+        text-align: justify;
+        width: 410px;
+    }
+    .say h5{
+        font-size: 20px;
+        color: #1E3673;
+        font-weight: 700;
+    }
+    .day{
+        width: 1240px;
+        height: 217px;
+        margin-left: 100px;
     }
 }

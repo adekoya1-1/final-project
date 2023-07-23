@@ -25,3 +25,17 @@
     background-repeat: no-repeat;
     height: 185px;
 }
+@media(min-width:900px){
+    .ser{
+     height: 435px;;
+    }
+    .ser h2{
+        font-size: 32px;
+        line-height: 42.94px;
+    }
+    .ser p{
+        font-size: 20px;
+        width: 534px;
+        line-height: 26.838px;
+    }
+}

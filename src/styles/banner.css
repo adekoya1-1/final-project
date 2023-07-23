@@ -1,6 +1,8 @@
-.dr{
+.drs{
     display: none;
-
+}
+.rraj{
+    display: none;
 }
 
 p{
@@ -33,34 +35,67 @@ p{
     margin-right: 15px;
 }
 
-@media(min-width:768px){
+@media(min-width: 900px){
+    .drs {
+            display: block;
+        }
+    
+    .rraj {
+            display: block;
+            margin-left: 100px;
+        }
     .yes{
         width: 342px;
         height: 153px;
+        font-size: 20px;
+        line-height: 26.838px;
+        text-align: justify;
     }
     .get{
         width: 460px;
+        font-size: 32px;
+        line-height: 43.9px;
     }
     #start{
-        margin-top: -100px;
+        margin-top: 80px;
+        width: 132px;
+        height: 48px;
+        font-size: 16px;
     }
-    /* .dr{
+    .dr{
     display: block;
+    width: 40%;
     }
-    .raj{
-        z-index: 1;
-        position: relative;
+    .gets{
+        width: 50%;
+        margin-left: 300px;
     }
     .drs{
     background: linear-gradient(164deg, #2F98C2 0%, rgba(222, 241, 249, 0.00) 100%);
-    width: 750px;
+    width: 850px;
     height: 274px;
     align-items: baseline;
     border-radius: 50px;
     position: relative;
+    bottom: 272px;
+    margin-left: 100px;
     }
     .its{
         align-items: end;
+        text-align: end;
+        padding-right: 50px;
+        padding-top: 100px;
     }
-     */
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .rraj{
+        z-index: 1;
+    }
+}
+@media(min-width: 1300px){
+    .drs{
+        width: 1240px;
+    }
 }

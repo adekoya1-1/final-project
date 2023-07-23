@@ -31,15 +31,43 @@
     font-weight: 600;
     margin-bottom: 44px;
 }
-@media(min-width: 768px){
+.covid2{
+    display: none;
+}
+.ipsum{
+    display: none;
+}
+@media(min-width: 900px){
+    .ipsum{
+        display: block;
+    }
+    .dolor{
+        display: none;
+    }
+    .covid{
+        display: none;
+    }
+    .covid2{
+        display: block;
+    }
     .drug{
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
     }
     .vass p{
-        width: 400px;
+        font-size: 20px;
     }
     .vass h3{
         margin-top: 116px;
+        font-size: 36px;
+    }
+    .vass{
+        margin-left: 100px;
+    }
+    .vass button{
+        width: 197px;
+        height: 60px;
+        font-size: 20px
     }
 }

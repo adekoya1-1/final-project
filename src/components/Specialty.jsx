@@ -21,38 +21,42 @@ const Specialty = () => {
       </div>
       <div className="deas">
         <div>
-        <img  src={ambulance} alt="" />
-        <h3>FASTEST AMBULANCE</h3>
-        <p>
-          We provide you with experienced and highly professional doctors with
-          the aim of providing exceptional care.
-        </p>
+          <img src={ambulance} alt="" />
+          <h3>FASTEST AMBULANCE</h3>
+          <p>
+            We provide you with experienced and highly professional doctors with
+            the aim of providing exceptional care.
+          </p>
+        </div>
+        <div className="bord">
+          <div className="bords">
+            <img src={doc} alt="" />
+            <h3>PROFESSIONAL DOCTORS</h3>
+            <p>
+              We provide you with experienced and highly professional doctors
+              with the aim of providing exceptional care.
+            </p>
+          </div>
+        </div>
+        <div className="bord">
+          <div className="bords">
+            <img src={time} alt="" />
+            <h3>BEST SERVICES</h3>
+            <p>
+              We are committed to providing healthcare services with the
+              consideration of patients satisfaction. Our patients come first!
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src={doc} alt="" />
-        <h3>PROFESSIONAL DOCTORS</h3>
-        <p>
-          We provide you with experienced and highly professional doctors with
-          the aim of providing exceptional care.
-        </p>
-      </div>
-      <div>
-        <img src={time} alt="" />
-        <h3>BEST SERVICES</h3>
-        <p>
-          We are committed to providing healthcare services with the
-          consideration of patients satisfaction. Our patients come first!
-        </p>
-      </div>
-      </div>
-      
+
       <div>
         <h2>MEET OUR DOCTORS</h2>
         <img src={heart} alt="" />
       </div>
       <div className="scr">
         <div className="doc">
-          <img className="docs"  src={jay} alt="" />
+          <img className="docs" src={jay} alt="" />
           <h3>Dr. Jay Stephen</h3>
           <p>Optometrist</p>
           <div className="chat">
@@ -117,8 +121,8 @@ const Specialty = () => {
       </div>
       <div className="day">
         <h3>We Operate 24h a day - 7 days a week!</h3>
-        <div>
-          <button style={{ backgroundColor: "#FFFFFF" }} className="btn">
+        <div className="pro">
+          <button style={{ backgroundColor: "#FFFFFF" }} className="btn ">
             REPORT A PROBLEM
           </button>
         </div>

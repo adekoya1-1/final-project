@@ -17,7 +17,7 @@ const Secondnavbar = () => {
           </Navbar.Brand>
             <Nav className="me-auto d-flex mee">
               <Link
-                to="/success"
+                to="/"
                 className="my"
               >
                 My Appointments

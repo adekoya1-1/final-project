@@ -2,7 +2,56 @@
     width: 189px;
     height: 36px;
 }
-.del{
+
+.coll{
+    align-items: end;
     display: flex;
-    flex-direction: column;
+}
+#navb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+@media(min-width: 900px){
+    .login{
+        color: #2F98C2;
+        font-family: var(--roboto);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+        .del {
+            display: flex;
+            flex-direction: row;
+        }
+        #signup{
+            display: inline-flex;
+            padding: 11px 23px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 15px;
+            background: linear-gradient(175deg, #2F98C2 0%, #1E3673 100%);
+            color: #FFF;
+            font-family: var(--roboto);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: normal;
+        }
+        #login{
+            color: #2F98C2;
+            font-family: var(--roboto);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .bars{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* gap: 171px; */
+        }
+        
 }

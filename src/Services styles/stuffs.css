@@ -46,3 +46,52 @@
     height: 39px;
     width: 89px;
 }
+.ame2{display: none;}
+.lance2{display: none;}
+.gyn2{display: none}
+.pae2{display: none;}
+.opt2{display: none;}
+.phy2{display: none;}
+
+@media(min-width:900px){
+    .lance2{display: block;}
+    .lance{display: none;}
+    .ame{display: none;}
+    .ame2{display: block;}
+    .gyn2{display: block;}
+    .gyn{display: none;}
+    .pae2{display: block;}
+    .pae{display: none;}
+    .opt2{display: block;}
+    .opt{display: none;}
+    .phy2{display: block;}
+    .phy{display: none;}
+    .vacc h3{
+        font-size: 32px;
+        line-height: 42.94px;
+        width: 555px;
+        
+    }
+    .vacc p{
+        font-size: 20px;
+        width: 555px;
+        line-height: 26.838px;
+    }
+    .vacc{
+        Width: 555px;
+        margin-top: 250px;
+    }
+    .vacc button{
+        width: 156px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .covi{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .amb{
+       margin-left: 100px;
+       margin-right: 100px;
+    }
+}

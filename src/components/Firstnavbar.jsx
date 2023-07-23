@@ -9,13 +9,16 @@ import {Link} from 'react-router-dom'
 const Firstnavbar = () => {
   return (
     <div>
-      <Navbar expand="lg" className=" justify-content-between fnav">
-        <Container>
+      <Navbar expand="lg"  className="  fnav">
+        <Container id=" navb" className="bars">
+          <div>
+            
+          </div>
           <Navbar.Brand href="#home">
             <img className="logo" src={Logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse className="coll" id="basic-navbar-nav">
             <Nav className="me-auto d-flex ">
               <Link
                 to="/"
@@ -42,8 +45,8 @@ const Firstnavbar = () => {
                 Contact
               </Link>
               <span className=" justify-content-end align-end del">
-                <Link className="btn" to="/login"><button >Login</button></Link>
-                <Link to="/signup" className="btn"><button style={{ backgroundColor: "#2F98C2" }}>
+                <Link to="/login"><button id="login" className="btn" >Login</button></Link>
+                <Link to="/signup"><button className="btn " id="signup">
                   Signup
                 </button></Link>
                 
