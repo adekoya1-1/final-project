@@ -26,7 +26,7 @@ const Firstnavbar = () => {
               >
                 Home
               </Link>
-              <Link
+              <Link 
                 to="/about"
                 className="text-decoration-none text-success fs-5 fw-light mx-3"
               >
