@@ -39,3 +39,52 @@ margin-top: 87px;
     font-weight: 400;
     line-height: 15.863px;
 }
+.docck{
+    display: none;
+}
+@media(min-width:900px){
+    .docck{display: block;}
+    .tea{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+    }
+    .log h3{
+        font-size: 32px;
+        color: #1E3673
+    }
+    .mail{
+        width: 467px;
+        height: 60px;
+        border-radius: 50px;
+        color: #FFF;
+        font-family: var(--roboto);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.438px;
+    }
+    .pass{
+        width: 467px;
+        height: 60px;
+        border-radius: 50px;
+        color: #FFF;
+        font-family: var(--roboto);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.438px;
+    }
+    .ini{
+        border-radius: 50px;
+        width: 467px;
+        height: 50px;
+        color: #FFF;
+        font-family: var(--roboto);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.438px;
+    }
+    .logg{
+        margin-left: 156px;
+        margin-right: 156px;
+    }
+}

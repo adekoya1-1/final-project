@@ -36,3 +36,31 @@
     font-weight: 600;
     margin-top: 45.5px;
 }
+.docks{
+    display: none;
+}
+@media(min-width: 900px){
+    .docks{
+        display: block;
+    }
+    .apppp{
+        display: flex;
+        padding-top: 50px;
+        margin-left: 100px;
+    }
+    .appp{
+    background-color: #FFF;
+    width: 619px;
+    height: 633px;
+    }
+    .place{
+        width: 510px;
+        height: 74px;
+        border-radius: 50px;
+        font-size: 20px;
+        color: #1E3673;
+    }
+    .date{
+        margin-top: 31px;
+    }
+}

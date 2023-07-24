@@ -4,6 +4,7 @@ import Banner2 from '../About componets/Banner2'
 import Aboutus from '../About componets/Aboutus'
 import Secondnavbar from '../components/Secondnavbar'
 import Success from './Success'
+import Footer from '../components/Footer'
 
 const Abouts = () => {
   return (
@@ -11,6 +12,7 @@ const Abouts = () => {
       <Firstnavbar />
       <Banner2 />
       <Aboutus />
+      <Footer/>
       
     </div>
   )

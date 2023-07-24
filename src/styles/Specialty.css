@@ -53,7 +53,7 @@
 .pro button{
     border-radius: 0px 20px;
 }
-@media(min-width: 1440px){
+@media(min-width: 900px){
     .deas{
         display: flex;
         text-align: center;
@@ -102,7 +102,7 @@
         font-weight: 700;
     }
     .day{
-        width: 1240px;
+        width: 85%;
         height: 217px;
         margin-left: 100px;
     }

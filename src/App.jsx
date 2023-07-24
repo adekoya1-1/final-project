@@ -25,7 +25,6 @@ function App() {
           <Route path='/appointment' element={<Appointment />} />
           <Route path='/success' element={<Success/>}/>
         </Routes>
-        <Footer/>
       </Router>
     </div>
   )
