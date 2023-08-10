@@ -11,9 +11,12 @@ const Secondnavbar = () => {
   return (
     <div className="second">
       <Navbar expand="lg" className=" justify-content-between fnav">
-        <Container>
+        <Container >
           <Navbar.Brand href="#home">
-            <img className="logo" src={Logo2} alt="" />
+            <Link to="/">
+               <img className="logo" src={Logo2} alt="" />
+            </Link>
+           
           </Navbar.Brand>
             <Nav className="me-auto d-flex mee">
               <Link

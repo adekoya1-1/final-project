@@ -37,6 +37,11 @@
 .ipsum{
     display: none;
 }
+.vass{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 90%;
+}
 @media(min-width: 900px){
     .ipsum{
         display: block;

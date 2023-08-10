@@ -19,7 +19,7 @@ const Footer = () => {
         <p>Fax: 0300000025</p>
         <p>Email: medkit@gmail.com</p>
         <hr />
-        <p>Copyright 2023 All Rights Reserved</p>
+        <p className="all">Copyright 2023 All Rights Reserved</p>
       </div>
       <div className="ftter">
         <div className="mars">

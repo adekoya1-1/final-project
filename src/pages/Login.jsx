@@ -25,25 +25,27 @@ const Login = () => {
           <div>
             <form>
               <div className="hot">
-                <label htmlFor="Email">Email</label>
+                <label className="yeasa" htmlFor="Email">Email</label>
                 <input
                   type="email"
                   id="email"
                   className="mail"
                   placeholder="elo@techstudio.com"
+                  required
                 />
               </div>
               <div className="hot">
-                <label htmlFor="password">Password</label>
+                <label className="yeasa" htmlFor="password">Password</label>
                 <input
                   type="password"
                   id="password"
                   className="pass"
                   placeholder="Min 8 characters"
+                  required
                 />
-                <p>Forgot your password?</p>
+                <p className="word">Forgot your password?</p>
                 <button className="ini">Log in</button>
-                <p>
+                <p className="yeasa">
                   Don’t have an account?
                   <span>
                     <Link to="/signup">Sign Up</Link>

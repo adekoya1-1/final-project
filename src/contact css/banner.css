@@ -8,3 +8,8 @@
     height: 119px;
     padding-top: 48px;
 }
+@media(min-width: 900px){
+    .cont{
+        height: 284px;
+    }
+}

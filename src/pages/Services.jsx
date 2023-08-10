@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 const Services = () => {
   return (
-    <div style={{backgroundColor: '#DEF1F9'}}>
+    <div style={{backgroundColor: '#DEF1F9', width: "100%"}}>
       <Firstnavbar/>
       <Banner />
       <Stuffs />

@@ -8,45 +8,45 @@ import {Link} from 'react-router-dom'
 
 const Firstnavbar = () => {
   return (
-    <div>
-      <Navbar expand="lg"  className="  fnav">
-        <Container id=" navb" className="bars">
-          <div>
-            
-          </div>
+    <div className="id">
+      <Navbar expand="lg"  className="bg-body-white" id="Navbarr">
+        <Container>
           <Navbar.Brand href="#home">
-            <img className="logo" src={Logo} alt="" />
+            <Link to="/">
+               <img className="logo" src={Logo} alt="" />
+            </Link>
+           
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse className="coll" id="basic-navbar-nav">
-            <Nav className="me-auto d-flex ">
+          <Navbar.Collapse id="basic-navbar">
+            <Nav className="me-auto">
               <Link
                 to="/"
-                className="text-decoration-none text-success fs-5 fw-light mx-3"
+                className="text-decoration-none" id="tap"
               >
                 Home
               </Link>
               <Link 
                 to="/about"
-                className="text-decoration-none text-success fs-5 fw-light mx-3"
+               className="text-decoration-none" id="tap"
               >
                 About
               </Link>
               <Link
                 to="/services"
-                className="text-decoration-none text-success fs-5 fw-light mx-3"
+               className="text-decoration-none" id="tap"
               >
                 Services
               </Link>
               <Link
                 to="/contact"
-                className="text-decoration-none text-success fs-5 fw-light mx-3"
+                className="text-decoration-none" id="tap"
               >
                 Contact
               </Link>
-              <span className=" justify-content-end align-end del">
-                <Link to="/login"><button id="login" className="btn" >Login</button></Link>
-                <Link to="/signup"><button className="btn " id="signup">
+              <span className=" buttons">
+                <Link to="/login"  className="text-decoration-none " id="take"> Login</Link>
+                <Link to="/signup" className="text-center"><button type="submit">
                   Signup
                 </button></Link>
                 

@@ -115,7 +115,7 @@ hr {
   margin-left: 49px;
   width: 224px;
   height: 224px;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 .inis {
   display: none;
@@ -132,6 +132,8 @@ hr {
 .hrs{
     display: none;
 }
+
+
 @media (min-width: 900px) {
     .hrs{
         display: block;
@@ -168,6 +170,12 @@ hr {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        margin-top: 140px;
+    }
+    .ellips{
+      width: 600px;
+      height: 600px;
+      margin-bottom: 103px;
     }
     .story1{
         display: none;
@@ -291,5 +299,11 @@ hr {
     display: flex;
     margin-left: 100px;
     gap: 64px;
+    margin-bottom: 40px;
+  }
+  #ntb{
+    width: 156px;
+    height: 60px;
+    font-size: 20px;
   }
 }

@@ -30,3 +30,20 @@
     height: 75px;
     background: #FFF;
 }
+@media(min-width: 900px){
+    .my{
+        font-size: 24px;
+    }
+    .out{
+        font-size: 24px;
+    }
+    .los{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mee{
+        align-items: end;
+        margin-left: 500px;
+    }
+}

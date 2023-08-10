@@ -31,7 +31,7 @@ const Aboutus = () => {
             id faucibus aliquam sed sit sed. Proin fermentum mauris mi aliquet
             sed vel. Quam id sed congue diam tincidunt enim.
           </p>
-          <button className="btn">Learn More</button>
+          <button className="btn" id="ntb">Learn More</button>
           <hr />
         </div>
       </div>
@@ -122,7 +122,7 @@ const Aboutus = () => {
         </div>
         <div className="ellip">
           <div>
-            <img src={ellip} alt="" />
+            <img className="ellips" src={ellip} alt="" />
           </div>
           <div>
             <div className="ages">

@@ -30,6 +30,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 28px;
 }
 .chat{
     display: flex;
@@ -105,5 +106,6 @@
         width: 85%;
         height: 217px;
         margin-left: 100px;
+        margin-bottom: 64px;
     }
 }

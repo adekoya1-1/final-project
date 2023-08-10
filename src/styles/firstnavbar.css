@@ -1,57 +1,106 @@
-.logo{
-    width: 189px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* .logo img {
+    width: 140px;
+}
+
+#basic-navbar {
+    text-align: center;
+}
+
+#tap {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1E3673;
+    padding-top: 13px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.buttons #take {
+    font-family: var(--Roboto);
+    color: #2F98C2;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 15px;
+}
+
+.buttons button {
+    width: 88px;
+    text-align: center;
+    margin-top: 15px;
     height: 36px;
-}
-
-.coll{
-    align-items: end;
-    display: flex;
-}
-#navb {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    border: none;
+    background: linear-gradient(123.09deg, #2F98C2 -7.49%, #1E3673 78.8%);
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
 
 }
-@media(min-width: 900px){
-    .login{
-        color: #2F98C2;
-        font-family: var(--roboto);
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+
+.serve {
+    padding-top: 15px;
+}
+
+@media (min-width:1000px) {
+    #Navbarr {
+        width: 100%;
     }
-        .del {
-            display: flex;
-            flex-direction: row;
-        }
-        #signup{
-            display: inline-flex;
-            padding: 11px 23px;
-            align-items: flex-start;
-            gap: 10px;
-            border-radius: 15px;
-            background: linear-gradient(175deg, #2F98C2 0%, #1E3673 100%);
-            color: #FFF;
-            font-family: var(--roboto);
-            font-size: 24px;
-            font-weight: 700;
-            line-height: normal;
-        }
-        #login{
-            color: #2F98C2;
-            font-family: var(--roboto);
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-        }
-        .bars{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            /* gap: 171px; */
-        }
-        
+
+    .logo img {
+        width: 241px;
+        height: 63px;
+        margin-left: -40px;
+    }
+
+    #basic-navbar a {
+        text-align: center;
+        margin-top: 5px;
+        gap: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: var(--Roboto);
+        margin-left: 20px;
+    }
+
+
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .buttons #take {
+        font-size: 15px;
+        margin-bottom: -15px;
+        font-weight: 700;
+        font-family: var(--Roboto);
+        padding-right: 155px;
+    }
+
+    .buttons button {
+        margin-left: 100px;
+        width: 130px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: var(--Roboto);
+        margin-top: -30px;
+
+    }
+
+    #Navbarr {
+        height: 85px;
+        padding: 50px;
+        width: 100%;
+    }
+
 }
